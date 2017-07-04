@@ -2,7 +2,9 @@
   "name": "twitsplit",
   "version": "1.0.0",
   "description": "an assignment from Eric",
-  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "author": "Khoa Do <mrkhoadodang@gmail.com>",
   "license": "MIT",
   "devDependencies": {

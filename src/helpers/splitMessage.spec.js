@@ -17,7 +17,7 @@ const cases = [
 	{
 		what: 'If the message contains a span of non-whitespace characters longer than 50 characters, display an error',
 		in: 'abc def 12345678901234567890123456789012345678901234567890XYZ ghi',
-		out: 'error: there is a word over 50 letters!'
+		out: ['error: there is a word over 50 letters!']
 	}
 ];
 

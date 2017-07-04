@@ -4,5 +4,8 @@
   "description": "an assignment from Eric",
   "main": "index.js",
   "author": "Khoa Do <mrkhoadodang@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
 }

@@ -1,7 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 
+import TwitSplit from './components/TwitSplit';
+
 render(
-	<h2>It's work!</h2>
+	<TwitSplit />
 	, document.querySelector('#app')
 );

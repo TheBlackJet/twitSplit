@@ -2,11 +2,10 @@ import React from 'react';
 
 import MsgChunk from './MsgChunk';
 
-export default () => {
+export default ({ messages }) => {
 	return (
 		<ul>
-			<MsgChunk text="the quick brown fox" />
-			<MsgChunk text="the lazy dog" />
+			{messages.map((msg, i) => <MsgChunk key={i} text={msg} />)}
 		</ul>
 	);
 }

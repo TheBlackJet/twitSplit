@@ -1,13 +1,13 @@
 import React from 'react';
 
-import MsgList from './pures/MsgList';
-import FormAddMsg from './pures/FormAddMsg';
+import VisibleMsgList from './containers/VisibleMsgList';
+import ExecutableFormAddMsg from './containers/ExecutableFormAddMsg';
 
 export default () => {
 	return (
 		<div>
-			<FormAddMsg />
-			<MsgList />
+			<ExecutableFormAddMsg />
+			<VisibleMsgList />
 		</div>
 	)
 }

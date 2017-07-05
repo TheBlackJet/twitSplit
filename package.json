@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "an assignment from Eric",
   "scripts": {
+    "compile": "webpack",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config config/webpack.config.js",
     "test": "jest"
   },
   "author": "Khoa Do <mrkhoadodang@gmail.com>",
@@ -13,6 +15,8 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
   }
 }

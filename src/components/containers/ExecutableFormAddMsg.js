@@ -5,4 +5,7 @@ import actions from '../../ducks/messages/actions';
 
 console.log(actions);
 
-export default connect(undefined, { addMessage: actions.addMessage })(FormAddMsg);
+export default connect(undefined, {
+	addMessage: actions.addMessage,
+	clearMessages: actions.clearMessages,
+})(FormAddMsg);

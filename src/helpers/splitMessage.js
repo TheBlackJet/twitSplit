@@ -27,7 +27,12 @@ function splitMessage(msg) {
   const msgLen = nmsg.length;
   // console.log('msglen:', msgLen);
 
-	// first if len is on range => return
+	// if empty return empty array
+	if (msgLen === 0) {
+		return [];
+	}
+
+	// if len is on range => return
   if (msgLen <= MAX_SENT_LEN) {
   	return [nmsg];
   }

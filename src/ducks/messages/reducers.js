@@ -9,6 +9,8 @@ const reducer = (state = [], action) => {
 				...state,
 				...splitMessage(action.payload.text)
 			]
+		case types.CLEAR:
+			return [];
 		default:
 			return state;
 	}

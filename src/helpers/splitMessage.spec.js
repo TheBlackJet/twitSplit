@@ -53,6 +53,11 @@ const cases = [
 			'11/12 dolore mollit labore minim nulla aliquip.',
 			'12/12 Nostrud aliquip est sint irure mollit.'
 		]
+	},
+	{
+		what: 'if message is empty => return empty array',
+		in: '',
+		out: []
 	}
 ];
 

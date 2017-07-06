@@ -7,7 +7,12 @@ const addMessage = (text) => ({
 	}
 });
 
+const clearMessages = () => ({
+	type: types.CLEAR
+});
+
 
 export default {
-	addMessage
+	addMessage,
+	clearMessages,
 }

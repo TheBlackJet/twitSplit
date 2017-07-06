@@ -10,6 +10,7 @@ class FormAddMsg extends Component {
 
 		this._handleChange = this._handleChange.bind(this);
 		this._handleSubmit = this._handleSubmit.bind(this);
+		this._handleClear = this._handleClear.bind(this);
 	}
 
 	_handleChange(e) {
@@ -21,6 +22,13 @@ class FormAddMsg extends Component {
 	_handleSubmit(e) {
 		e.preventDefault();
 		this.props.addMessage(this.state.text);
+		this.setState({
+			text: ''
+		});
+	}
+
+	_handleClear(e) {
+		this.props.clearMessages();
 	}
 
 	render() {
@@ -31,6 +39,7 @@ class FormAddMsg extends Component {
 								onChange={this._handleChange}
 								/>
 				<input type="submit" value="Send" />
+				<input type="button" value="Clear" onClick={this._handleClear} />
 			</form>
 		);
 	}

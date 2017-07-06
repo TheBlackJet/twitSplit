@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+*, ::after, ::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;
+}
+
+input {
+	padding: 5px 10px;
+}
+
+.o-wrapper {
+	width: 400px;
+	border: 2px solid #333;
+	margin: 10px auto;
+}
+
+.o-box {
+	padding: 10px;
+}
+
+
+.c-msg-form {
+	border-bottom: 1px solid #333;
+}
+
+.c-msg-list {
+
+}
+
+.c-msg-item {
+	margin-bottom: 5px;
+}
+
+.c-desc {
+	margin-bottom: 10px;
+}

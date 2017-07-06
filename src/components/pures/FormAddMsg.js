@@ -25,7 +25,7 @@ class FormAddMsg extends Component {
 
 	render() {
 		return (
-			<form onSubmit={this._handleSubmit}>
+			<form onSubmit={this._handleSubmit} className="o-box c-msg-form">
 				<input type="text"
 								value={this.state.text}
 								onChange={this._handleChange}
